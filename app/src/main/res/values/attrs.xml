@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BottomNavView">
+        <!-- 底部导航栏条目的个数 -->
+        <attr name="item_count" format="integer" />
+        <!-- 底部背景颜色  -->
+        <attr name="bg_color" format="color" />
+        <!-- 单一的文字颜色   -->
+        <attr name="text_color" format="color" />
+        <!-- 文字颜色选择器-->
+        <attr name="text_sel_color" format="reference" />
+        <!-- 底部图标的列表 -->
+        <attr name="icon_list" format="reference" />
+        <!-- 底部导航栏文本显示列表 -->
+        <attr name="bottom_text_list" format="reference" />
+        <!-- 底部图标大小 -->
+        <attr name="icon_size" format="dimension" />
+        <!-- 底部文字大小 -->
+        <attr name="text_size" format="dimension" />
+        <!-- 距离顶部的距离       -->
+        <attr name="padding_top" format="dimension" />
+        <!-- 距离底部的距离       -->
+        <attr name="padding_bottom" format="dimension" />
+        <!-- 图标和文字之间的距离 -->
+        <attr name="drawable_padding" format="dimension" />
+        <!-- 是否允许重复点击 true不允许  false表示可以重复点击-->
+        <attr name="enable_repeat_click" format="boolean" />
+
+    </declare-styleable>
+
+    <declare-styleable name="DotDashView">
+        <!--间隔 -->
+        <attr name="dash_gap" format="dimension" />
+        <!--        大小 即半径-->
+        <attr name="dot_size" format="dimension" />
+        <!-- 圆点颜色       -->
+        <attr name="dot_color" format="color" />
+
+    </declare-styleable>
+
+
+</resources>

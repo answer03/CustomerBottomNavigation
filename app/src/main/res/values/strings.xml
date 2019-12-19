@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="home">好课程</string>
+    <string name="course">好老师</string>
+    <string name="teach">上课</string>
+    <string name="user_center">我的</string>
+</resources>

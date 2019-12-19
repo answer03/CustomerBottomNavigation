@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    图片数组-->
+    <string-array name="bottomIconList">
+        <item>user_sel</item>
+        <item>user_sel</item>
+        <item>user_sel</item>
+        <item>user_sel</item>
+    </string-array>
+
+    <!--    底部导航栏的文字提示-->
+    <string-array name="bottomTxtList">
+        <item>@string/home</item>
+        <item>@string/course</item>
+        <item>@string/teach</item>
+        <item>@string/user_center</item>
+
+    </string-array>
+
+
+</resources>
