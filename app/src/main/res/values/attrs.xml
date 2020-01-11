@@ -39,5 +39,24 @@
 
     </declare-styleable>
 
+    <!--按钮进度条的样式-->
+    <declare-styleable name="ProgressButton">
+        <attr name="progressColor" />
+        <attr name="progressBackColor" />
+        <attr name="buttonColor" />
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="currentProgress" format="integer" />
+        <attr name="minProgress" format="integer" />
+        <attr name="maxProgress" format="integer" />
+        <attr name="progressMargin" format="dimension" />
+
+    </declare-styleable>
+
+    <declare-styleable name="TagTextView">
+        <attr name="tagPadding" format="dimension" />
+        <attr name="tagBgColor" format="color" />
+        <attr name="tagRadius" format="dimension"/>
+    </declare-styleable>
+
 
 </resources>

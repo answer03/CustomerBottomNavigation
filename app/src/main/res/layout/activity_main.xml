@@ -51,12 +51,46 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="123444"
-        android:textSize="20sp"
         android:textColor="#666666"
-        app:layout_constraintTop_toBottomOf="@id/gLine3"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gLine3" />
+
+
+    <com.allenmeng.myapplication.ProgressButton
+        android:id="@+id/pb_btn"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:text="进度条"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        app:cornerRadius="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:progressMargin="2dp"
         />
+
+    <com.allenmeng.myapplication.TagTextView
+        android:text="我是标签"
+        android:layout_marginTop="10dp"
+        app:tagBgColor="@color/bg_color"
+        android:textColor="#fff"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:textSize="10sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pb_btn"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content"/>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
